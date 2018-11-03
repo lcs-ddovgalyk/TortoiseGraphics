@@ -14,11 +14,6 @@ canvas.drawing { t in
     
     
     
-    
-
-
-    
-    
 
 }
 
