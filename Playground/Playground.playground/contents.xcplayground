@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='macos' display-mode='raw'>
+<playground version='6.0' target-platform='macos' display-mode='raw' executeOnSourceChanges='false'>
     <pages>
+        <page name='Starting Code For Turtle'/>
         <page name='With a tortoise'/>
         <page name='With 2 tortoises'/>
+        <page name='Oct 20 Exercise Two'/>
+        <page name='Oct 20 Exercise Three'/>
+        <page name='Oct 20 Exercise One'/>
+        <page name='Oct 21 Exercise One'/>
+        <page name='Oct 21 repeat shape'/>
+        <page name='Oct 26 Method Example'/>
+        <page name='Oct 26 Custim Rotation design '/>
+        <page name='Oct 29 Draw My name'/>
     </pages>
 </playground>
