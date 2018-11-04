@@ -14,9 +14,19 @@ class CanvasView: NSView {
         
         // Command "t" on canvas to make the turtle draw
         canvas.drawing { t in
-            
-            // Add your commands within this block
+            t.penUp()
+            t.goto(-300, 150)
+            t.penDown()
+            t.penColor(.deepOrange)
+            t.penSize(2)
             t.upperD()
+            t.setHeading(25)
+            t.lowerI()
+            t.lowerM()
+
+
+  
+            
             
         }
     }

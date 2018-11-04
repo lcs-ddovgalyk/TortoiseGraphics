@@ -17,7 +17,7 @@ public extension Tortoise {
         self.penUp()
     }
     func upperD() {
-        self.penColor(.deepOrange)
+
         self.penUp()
         self.forward(60)
         self.penDown()
@@ -34,6 +34,47 @@ public extension Tortoise {
         self.curve(withSides: -30, witchSize: 5, drawSides: 10)
         self.curve(withSides: -15, witchSize: 10, drawSides: 7)
         self.setHeading(90)
+        self.penUp()
+        self.forward(72)
+        self.right(90)
+        self.forward(77)
 
+    }
+    func lowerI() {
+        self.penDown()
+        self.forward(70)
+        self.right(160)
+        self.forward(80)
+        self.curve(withSides: 30, witchSize: 5, drawSides: 10)
+        self.right(90)
+        self.curve(withSides: 30, witchSize: 5, drawSides: 9)
+
+    }
+    func lowerM() {
+        self.setHeading(115)
+        self.penDown()
+        self.left(30)
+        self.forward(10)
+        self.left(65)
+        self.forward(80)
+        self.curve(withSides: 50, witchSize: 2, drawSides: 24)
+        self.penDown()
+        self.forward(77)
+        self.left(180)
+        self.forward(67)
+        self.curve(withSides: 50, witchSize: 3, drawSides: 21)
+        self.penDown()
+        self.right(30)
+        self.forward(70)
+        self.right(180)
+        self.forward(67)
+        self.curve(withSides: 50, witchSize: 3, drawSides: 21)
+        self.penDown()
+        self.right(30)
+        self.forward(70)
+
+}
+    func lowerA() {
+        
     }
 }

@@ -10,7 +10,16 @@ canvas.color = .white
 PlaygroundPage.current.liveView = canvas
 
 canvas.drawing { t in
+    t.penUp()
+    t.goto(-300, 150)
+    t.penDown()
+    t.penColor(.deepOrange)
+    t.penSize(2)
     t.upperD()
+    t.setHeading(90)
+    t.lowerI()
+    t.lowerM()
+    
     
     
     
