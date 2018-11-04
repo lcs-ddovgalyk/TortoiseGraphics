@@ -41,6 +41,8 @@ public extension Tortoise {
 
     }
     func lowerI() {
+        self.setHeading(25)
+
         self.penDown()
         self.forward(70)
         self.right(160)
@@ -75,6 +77,43 @@ public extension Tortoise {
 
 }
     func lowerA() {
-        
+        self.setHeading(40)
+        self.penDown()
+        self.forward(50)
+        self.left(30)
+        self.forward(15)
+        self.curve(withSides: 80, witchSize: 3, drawSides: 25)
+        self.showTortoise()
+        self.penUp()
+        self.right(60)
+        self.forward(40)
+        self.right(85)
+        self.forward(57)
+        self.left(90)
+        self.curve(withSides: -80, witchSize: 3, drawSides: 25)
+        self.left(60)
+        self.penDown()
+        self.forward(77)
+        self.right(180)
+        self.forward(57)
+        self.curve(withSides: -5, witchSize: 12, drawSides: 3)
+
+    }
+    func lowerO(){
+        self.setHeading(10)
+        self.curve(withSides: 50, witchSize: 10, drawSides: 7)
+        self.right(180)
+        self.curve(withSides: -10, witchSize: 30, drawSides: 5)
+        self.left(20)
+        self.curve(withSides: -10, witchSize: 30, drawSides: 4)
+        self.left(100)
+        self.curve(withSides: -10, witchSize: 11, drawSides: 4)
+    }
+    func lowerV(){
+        self.setHeading(150)
+        self.curve(withSides: 100, witchSize: 10, drawSides: 9)
+        self.left(180)
+        self.curve(withSides: 100, witchSize: 10, drawSides: 9)
+
     }
 }
