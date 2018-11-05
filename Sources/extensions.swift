@@ -99,7 +99,7 @@ public extension Tortoise {
         self.curve(withSides: -5, witchSize: 12, drawSides: 3)
 
     }
-    func lowerO(){
+    func lowerO() {
         self.setHeading(10)
         self.curve(withSides: 50, witchSize: 10, drawSides: 7)
         self.right(180)
@@ -109,11 +109,77 @@ public extension Tortoise {
         self.left(100)
         self.curve(withSides: -10, witchSize: 11, drawSides: 4)
     }
-    func lowerV(){
+    func lowerV() {
         self.setHeading(150)
         self.curve(withSides: 100, witchSize: 10, drawSides: 9)
         self.left(180)
         self.curve(withSides: 100, witchSize: 10, drawSides: 9)
+
+    }
+    func lowerG() {
+        self.setHeading(180)
+        self.forward(10)
+        self.penDown()
+        self.forward(15)
+        self.setHeading(0)
+        self.curve(withSides: -20, witchSize: -13, drawSides: 10)
+        self.right(180)
+        self.penDown()
+        self.forward(15)
+        self.curve(withSides: -20, witchSize: 13, drawSides: 10)
+        self.right(180)
+        self.penColor(.grey)
+        self.curve(withSides: 20, witchSize: 13, drawSides: 10)
+        self.penColor(.deepOrange)
+        self.penDown()
+        self.forward(150)
+        self.curve(withSides: 20, witchSize: 13, drawSides: 10)
+        self.right(40)
+        self.penDown()
+        self.forward(120)
+    }
+    func lowerL() {
+        self.setHeading(45)
+        self.curve(withSides: -60, witchSize: 18, drawSides: 7)
+        self.curve(withSides: -10, witchSize: 10, drawSides: 5)
+        self.penDown()
+        self.forward(110)
+        self.curve(withSides: -10, witchSize: 10, drawSides: 4)
+    }
+    func lowerY() {
+        self.penDown()
+        self.setHeading(20)
+        self.forward(50)
+        self.setHeading(0)
+        self.forward(10)
+        self.backward(10)
+        self.setHeading(0)
+        self.right(180)
+        self.curve(withSides: -18, witchSize: 13, drawSides: 9)
+        self.penDown()
+        self.forward(20)
+        self.backward(20)
+        self.right(180)
+        self.forward(100)
+        self.curve(withSides: 20, witchSize: 13, drawSides: 10)
+        self.right(40)
+        self.penDown()
+        self.forward(130)
+    }
+    func lowerK() {
+        self.setHeading(45)
+        self.curve(withSides: -60, witchSize: 18, drawSides: 7)
+        self.curve(withSides: -10, witchSize: 10, drawSides: 5)
+        self.penDown()
+        self.forward(150)
+        self.backward(50)
+        self.setHeading(70)
+        self.curve(withSides: -30, witchSize: 18, drawSides: 5)
+        self.penDown()
+        self.setHeading(45)
+        self.backward(80)
+        self.right(95)
+        self.forward(65)
 
     }
 }

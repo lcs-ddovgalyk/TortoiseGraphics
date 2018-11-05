@@ -12,6 +12,7 @@ class CanvasView: NSView {
         // Instantiate a GraphicsCanvas
         let canvas = GraphicsCanvas(size: bounds.size, context: cgContext)
         
+        
         // Command "t" on canvas to make the turtle draw
         canvas.drawing { t in
             //set's where the first name is going to be drawn
@@ -39,16 +40,18 @@ class CanvasView: NSView {
             //Draws the letter O
             t.lowerO()
             
-            //draw the letter V
-            t.setHeading(150)
-            t.curve(withSides: 100, witchSize: 10, drawSides: 9)
-            t.left(180)
-            t.curve(withSides: 100, witchSize: 10, drawSides: 9)
-
-
-  
-            
-            
+            //draws the letter V
+            t.lowerV()
+            //draws the letter G
+            t.lowerG()
+            //draws the letter A
+            t.lowerA()
+            //draws the letter L
+            t.lowerL()
+            //draws the letter Y
+            t.lowerY()
+            //draws the lette K
+            t.lowerK()
         }
     }
     
