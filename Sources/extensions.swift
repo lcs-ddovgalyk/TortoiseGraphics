@@ -191,7 +191,7 @@ public extension Tortoise {
         self.penDown()
         self.forward(130)
     }
-    func lowerK(){
+    func lowerK() {
         //draws the letter K
         self.setHeading(45)
         //Draws the top of the letter K
