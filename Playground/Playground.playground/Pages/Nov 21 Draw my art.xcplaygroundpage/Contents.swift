@@ -5,7 +5,7 @@ import CoreGraphics
 
 let myFrame = CGRect(x: 0, y: 0, width: 500, height: 500)
 let canvas = PlaygroundCanvas(frame: myFrame)
-canvas.frameRate = 150
+canvas.frameRate = 250
 canvas.color = .white
 PlaygroundPage.current.liveView = canvas
 
@@ -13,7 +13,7 @@ canvas.drawing { turtle in
     turtle.penUp()
     turtle.goto(-200, 200)
     turtle.penDown()
-    for _ in 1...3 {
+    for _ in 1...5 {
    
     
     
@@ -44,6 +44,7 @@ canvas.drawing { turtle in
     turtle.penUp()
     turtle.forward(100)
     turtle.penDown()
+        
     
     }
 
