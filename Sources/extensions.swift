@@ -211,4 +211,15 @@ public extension Tortoise {
         self.forward(65)
 
     }
+
+    func sixagon(size: Double) {
+        self.penDown()
+        for _ in 1...9 {
+            self.forward(size)
+            self.right(40)
+
+        }
+
+    }
+
 }
